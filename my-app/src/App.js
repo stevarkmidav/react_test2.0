@@ -25,11 +25,12 @@ export default function ResponsiveGrid() {
         {Array.from(Array(6)).map((_, index) => (
           <Grid item xs={2} sm={4} md={4} key={index}>
             <Item>
-              <Card sx={{ maxWidth: 345,
-                        margin: '0 auto' }}>
+              <Card sx={{ 
+                maxWidth: 345,
+                margin: '0 auto' }}>
                 <CardMedia
                   component="img"
-                  height="140"
+                  height="100%"
                   image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5EnJ0lWTyQWtZuDMzUp39niPbgiNNZtHoQ&usqp=CAU"
                   alt="burger"
                 />
