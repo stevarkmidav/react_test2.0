@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { menuList } from './components/menuList';
-
+import { MenuList } from './components/MenuList';
 
 export default function ResponsiveGrid() {
   return (
-    {menuList}
+    <MenuList />
   );
 }
